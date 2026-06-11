@@ -4,7 +4,6 @@
 
 [build.environment]
   NEXT_FORCE_EDGE_IMAGES = "true"
-  TURBOPACK = "0"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
