@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "projects": "پروژه‌ها",
+    "skills": "مهارت‌ها",
+    "experience": "تجربه",
+    "services": "خدمات",
+    "contact": "تماس",
+    "logo": "Abol DeV"
+  },
+  "hero": {
+    "available": "آماده همکاری فریلنسری",
+    "greeting": "سلام، من Abolfazl DoStgol هستم",
+    "subtitle": "طراح و توسعه‌دهنده وب؛ ساخت تجربه‌های مدرن، سریع و زیبا با",
+    "tech": {
+      "nextjs": "Next.js",
+      "react": "React",
+      "and": "و"
+    },
+    "cta": {
+      "viewWork": "مشاهده نمونه‌کارها",
+      "getInTouch": "ارتباط با من"
+    },
+    "stats": {
+      "projects": {
+        "value": "+۱۰",
+        "label": "پروژه"
+      },
+      "technologies": {
+        "value": "+۱۲",
+        "label": "تکنولوژی"
+      },
+      "experience": {
+        "value": "۱-۳ سال",
+        "label": "تجربه کاری"
+      }
+    }
+  },
+  "projects": {
+    "label": "نمونه‌کارها",
+    "title": "پروژه‌ها",
+    "subtitle": "مجموعه‌ای از چیزهایی که با دقت و کد ساخته‌ام.",
+    "featured": "ویژه",
+    "items": {
+      "goldinpay": {
+        "title": "GoldinPay",
+        "description": "پلتفرم اجاره طلا با احراز هویت امن JWT، قیمت‌گذاری لحظه‌ای و کنترل دسترسی چند نقشه. ساخته شده به صورت Monorepo با TypeScript.",
+        "tags": ["Next.js 16", "React 19", "Express.js", "TypeScript", "Prisma", "PostgreSQL", "JWT", "Monorepo"]
+      },
+      "danoa": {
+        "title": "DanoA",
+        "description": "چت‌بات هوشمند برای کودکان با فیلتر محتوای مبتنی بر سن. گفتگوهای امن، سرگرم‌کننده و آموزشی برای بچه‌ها.",
+        "tags": ["هوش مصنوعی", "فیلتر محتوا", "کودک‌پسند", "Next.js", "TypeScript"]
+      },
+      "portfolio": {
+        "title": "وبسایت پورتفولیو",
+        "description": "پورتفولیوی مدرن و دوزبانه با انیمیشن‌های اسکرول سه‌بعدی، طراحی Glassmorphism و حالت دارک/لایت با تغییر تم انیمیشن‌دار.",
+        "tags": ["Next.js 15", "Framer Motion", "Tailwind CSS", "TypeScript", "next-intl"]
+      }
+    }
+  },
+  "skills": {
+    "label": "تکنولوژی‌ها",
+    "title": "مهارت‌ها",
+    "subtitle": "تکنولوژی‌ها و ابزارهایی که هر روز با آن‌ها کار می‌کنم.",
+    "groups": {
+      "frontend": {
+        "title": "فرانت‌اند",
+        "skills": [
+          { "name": "Next.js 15", "level": 90 },
+          { "name": "React", "level": 88 },
+          { "name": "TypeScript", "level": 85 },
+          { "name": "Tailwind CSS", "level": 92 },
+          { "name": "Framer Motion", "level": 80 }
+        ]
+      },
+      "backend": {
+        "title": "بک‌اند",
+        "skills": [
+          { "name": "Node.js", "level": 82 },
+          { "name": "PHP / Laravel", "level": 75 },
+          { "name": "Python / FastAPI", "level": 78 },
+          { "name": "REST APIs", "level": 85 },
+          { "name": "JWT Auth", "level": 80 }
+        ]
+      },
+      "database": {
+        "title": "دیتابیس و ابزارها",
+        "skills": [
+          { "name": "PostgreSQL", "level": 78 },
+          { "name": "MySQL", "level": 75 },
+          { "name": "SQLite", "level": 80 },
+          { "name": "Prisma ORM", "level": 85 },
+          { "name": "SEO", "level": 82 }
+        ]
+      }
+    }
+  },
+  "experience": {
+    "label": "مسیر کاری",
+    "title": "تجربه‌ها",
+    "subtitle": "جایی که مشارکت کردم و به عنوان توسعه‌دهنده رشد کردم.",
+    "items": [
+      {
+        "role": "توسعه‌دهنده وب فریلنسر",
+        "company": "خویش‌فرما",
+        "period": "۲۰۲۴ - اکنون",
+        "description": "ساخت اپلیکیشن‌های وب مدرن برای مشتریان با Next.js، React و TypeScript. تحویل راهکارهای ریسپانسیو و سئو بهینه.",
+        "tags": ["Next.js", "React", "TypeScript", "Tailwind"],
+        "current": true
+      },
+      {
+        "role": "توسعه‌دهنده فرانت‌اند",
+        "company": "GoldinPay",
+        "period": "۰۲۴",
+        "description": "توسعه پلتفرم اجاره طلا با احراز هویت امن، موتور قیمت‌گذاری لحظه‌ای و داشبورد چند نقشه.",
+        "tags": ["Next.js 16", "Prisma", "PostgreSQL", "JWT"],
+        "current": false
+      },
+      {
+        "role": "توسعه‌دهنده فول‌استک",
+        "company": "DanoA",
+        "period": "۲۰۲۴",
+        "description": "ساخت چت‌بات هوش مصنوعی برای کودکان با فیلتر محتوای مبتنی بر سن، تضمین گفتگوهای امن و آموزشی.",
+        "tags": ["هوش مصنوعی", "Next.js", "فیلتر محتوا"],
+        "current": false
+      }
+    ]
+  },
+  "contact": {
+    "label": "ارتباط با من",
+    "title": "تماس",
+    "subtitle": "پروژه‌ای در ذهن دارید؟ بیایید با هم چیز شگفت‌انگیزی بسازیم.",
+    "connect": "بیایید ارتباط بگیریم",
+    "github": "github.com/MrAbol777",
+    "linkedin": "ابوالفضل دوست‌گل",
+    "form": {
+      "name": {
+        "label": "نام",
+        "placeholder": "نام شما"
+      },
+      "email": {
+        "label": "ایمیل",
+        "placeholder": "you@example.com"
+      },
+      "message": {
+        "label": "پیام",
+        "placeholder": "درباره پروژه‌تان بگویید..."
+      },
+      "send": "ارسال پیام",
+      "sent": "پیام ارسال شد!"
+    }
+  },
+  "footer": {
+    "copyright": "©",
+    "builtWith": "ساخته شده با",
+    "and": "و",
+    "designedWith": "طراحی شده با"
+  }
+}

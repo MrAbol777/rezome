@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "services": "Services",
+    "contact": "Contact",
+    "logo": "Abol Dev"
+  },
+  "hero": {
+    "available": "Available for freelance work",
+    "greeting": "Hi, I'm Abolfazl DoStGol",
+    "subtitle": "Web Designer & Developer crafting modern, performant, and beautiful web experiences with",
+    "tech": {
+      "nextjs": "Next.js",
+      "react": "React",
+      "and": "and"
+    },
+    "cta": {
+      "viewWork": "View My Work",
+      "getInTouch": "Get In Touch"
+    },
+    "stats": {
+      "projects": {
+        "value": "10+",
+        "label": "Projects"
+      },
+      "technologies": {
+        "value": "12+",
+        "label": "Technologies"
+      },
+      "experience": {
+        "value": "1-3 yrs",
+        "label": "Experience"
+      }
+    }
+  },
+  "projects": {
+    "label": "featured work",
+    "title": "Projects",
+    "subtitle": "A selection of things I've built with care and code.",
+    "featured": "featured",
+    "items": {
+      "goldinpay": {
+        "title": "GoldinPay",
+        "description": "Gold rental platform with secure JWT authentication, real-time pricing, and multi-role access control. Built as a monorepo with TypeScript throughout.",
+        "tags": ["Next.js 16", "React 19", "Express.js", "TypeScript", "Prisma", "PostgreSQL", "JWT", "Monorepo"]
+      },
+      "danoa": {
+        "title": "DanoA",
+        "description": "AI-powered chatbot designed for children with age-appropriate content filtering. Safe, fun, and educational conversations for kids of all ages.",
+        "tags": ["AI", "Content Filtering", "Child-Safe", "Next.js", "TypeScript"]
+      },
+      "portfolio": {
+        "title": "Portfolio Website",
+        "description": "A modern, bilingual portfolio with 3D scroll animations, glassmorphism design, and dark/light mode with animated theme toggle.",
+        "tags": ["Next.js 15", "Framer Motion", "Tailwind CSS", "TypeScript", "next-intl"]
+      }
+    }
+  },
+  "skills": {
+    "label": "tech stack",
+    "title": "Skills",
+    "subtitle": "Technologies and tools I work with every day.",
+    "groups": {
+      "frontend": {
+        "title": "Frontend",
+        "skills": [
+          { "name": "Next.js 15", "level": 90 },
+          { "name": "React", "level": 88 },
+          { "name": "TypeScript", "level": 85 },
+          { "name": "Tailwind CSS", "level": 92 },
+          { "name": "Framer Motion", "level": 80 }
+        ]
+      },
+      "backend": {
+        "title": "Backend",
+        "skills": [
+          { "name": "Node.js", "level": 82 },
+          { "name": "PHP / Laravel", "level": 75 },
+          { "name": "Python / FastAPI", "level": 78 },
+          { "name": "REST APIs", "level": 85 },
+          { "name": "JWT Auth", "level": 80 }
+        ]
+      },
+      "database": {
+        "title": "Database & Tools",
+        "skills": [
+          { "name": "PostgreSQL", "level": 78 },
+          { "name": "MySQL", "level": 75 },
+          { "name": "SQLite", "level": 80 },
+          { "name": "Prisma ORM", "level": 85 },
+          { "name": "SEO", "level": 82 }
+        ]
+      }
+    }
+  },
+  "experience": {
+    "label": "journey",
+    "title": "Experience",
+    "subtitle": "Where I've contributed and grown as a developer.",
+    "items": [
+      {
+        "role": "Freelance Web Developer",
+        "company": "Self-employed",
+        "period": "2024 - Present",
+        "description": "Building modern web applications for clients using Next.js, React, and TypeScript. Delivering responsive, SEO-optimized solutions.",
+        "tags": ["Next.js", "React", "TypeScript", "Tailwind"],
+        "current": true
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "GoldinPay",
+        "period": "2024",
+        "description": "Developed a gold rental platform with secure authentication, real-time pricing engine, and multi-role dashboard.",
+        "tags": ["Next.js 16", "Prisma", "PostgreSQL", "JWT"],
+        "current": false
+      },
+      {
+        "role": "Full Stack Developer",
+        "company": "DanoA",
+        "period": "2024",
+        "description": "Built an AI chatbot for children with age-based content filtering, ensuring safe and educational conversations.",
+        "tags": ["AI", "Next.js", "Content Filtering"],
+        "current": false
+      }
+    ]
+  },
+  "contact": {
+    "label": "get in touch",
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let's build something amazing together.",
+    "connect": "Let's Connect",
+    "github": "github.com/MrAbol777",
+    "linkedin": "Abolfazl DoStGol",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@example.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell me about your project..."
+      },
+      "send": "Send Message",
+      "sent": "Message Sent!"
+    }
+  },
+  "footer": {
+    "copyright": "©",
+    "builtWith": "Built with",
+    "and": "+",
+    "designedWith": "Designed with"
+  }
+}
