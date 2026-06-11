@@ -1,7 +1,7 @@
 -- ──────────────────────────────────────────────
 -- Supabase Schema for Rezome Admin Dashboard
-── Paste into Supabase SQL Editor
-── Run ALL at once
+-- Paste into Supabase SQL Editor
+-- Run ALL at once
 -- ──────────────────────────────────────────────
 
 -- 1. Projects
@@ -131,6 +131,19 @@ CREATE POLICY "Admin full access services"
   ON services FOR ALL
   USING (auth.role() = 'authenticated')
   WITH CHECK (auth.role() = 'authenticated');
+
+-- Public read for portfolio data
+CREATE POLICY "Public read projects"
+  ON projects FOR SELECT
+  USING (true);
+
+CREATE POLICY "Public read skills"
+  ON skills FOR SELECT
+  USING (true);
+
+CREATE POLICY "Public read experiences"
+  ON experiences FOR SELECT
+  USING (true);
 
 CREATE POLICY "Public read services"
   ON services FOR SELECT
