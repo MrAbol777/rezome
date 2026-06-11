@@ -24,8 +24,8 @@ export function ExperienceSection() {
           .select("*")
           .order("sort_order", { ascending: true });
         setExperiences((data as Experience[]) || []);
-      } catch {
-        // Silently fail
+      } catch (error) {
+        console.error("[ExperienceSection] Supabase error:", error);
       }
       setLoading(false);
     }

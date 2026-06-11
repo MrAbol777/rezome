@@ -38,8 +38,8 @@ export function SkillsSection() {
           .select("*")
           .order("sort_order", { ascending: true });
         setSkills((data as Skill[]) || []);
-      } catch {
-        // Silently fail
+      } catch (error) {
+        console.error("[SkillsSection] Supabase error:", error);
       }
       setLoading(false);
     }

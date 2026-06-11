@@ -24,8 +24,8 @@ export function ProjectsSection() {
           .eq("featured", true)
           .order("sort_order", { ascending: true });
         setProjects((data as Project[]) || []);
-      } catch {
-        // Silently fail
+      } catch (error) {
+        console.error("[ProjectsSection] Supabase error:", error);
       }
       setLoading(false);
     }
